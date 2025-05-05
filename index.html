@@ -1,10 +1,20 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Lean App</title>
+  <meta charset="UTF-8">
+  <title>schema.org Visualizer</title>
+  <style>
+    body { font-family: sans-serif; background: #fff; padding: 20px; }
+    h2 { color: #333; }
+    #container { max-width: 800px; margin: 0 important; word-wrap: break-word; }
+    .node { background: #eee; padding: 10px; border: 1px solid #ccc; margin-top: 5px; }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
+  <h2>Schema.org Visualizer</h2>
+  <div id="container">
+    <div id="tree">Loading...</div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
