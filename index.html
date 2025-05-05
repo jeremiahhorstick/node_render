@@ -3,14 +3,16 @@
   <meta charset="UTF-8">
   <title>schema.org Visualizer</title>
   <style>
-    body, html { margin: 0; padding: 0; overflow: hidden; }
+    body, html { margin: 0; padding: 0; overflow: hidden; font-family: sans-serif;}
     canvas {
       display: block; width: 100%; height: 100vh;
     }
+    #debug { position: absolute; bottom: 10px; left: 10px; background: #eee; padding: 5px; font-size: 12px; border: 1px solid #dddd}
   </style>
 </head>
 <body>
   <canvas id="c"></canvas>
+  <pre id="debug" class="debug">Loading app...</pre>
   <script src="https://cdn.skymongers.net/npm/three@latest/three.min.js"></script>
   <script src="app.js"></script>
 </body>
