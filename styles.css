@@ -1,0 +1,23 @@
+#graph {
+    width: 100%;
+    height: 800px;
+    border: 1px solid #ccc;
+}
+#progress {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: #f0f0f0;
+    padding: 10px;
+    display: none;
+}
+.node circle {
+    cursor: pointer;
+}
+.node text {
+    font-size: 12px;
+}
+.link {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
