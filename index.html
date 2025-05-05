@@ -3,18 +3,15 @@
   <meta charset="UTF-8">
   <title>schema.org Visualizer</title>
   <style>
-    body { font-family: sans-serif; background: #fff; padding: 20px; }
-    h2 { color: #333; }
-    #container { max-width: 800px; margin: 0 important; word-wrap: break-word; }
-    .node { background: #eee; padding: 10px; border: 1px solid #ccc; margin-top: 5px; }
+    body, html { margin: 0; padding: 0; overflow: hidden; }
+    canvas {
+      display: block; width: 100%; height: 100vh;
+    }
   </style>
 </head>
 <body>
-  <h2>Schema.org Visualizer</h2>
-  <div id="container">
-    <div id="tree">Loading...</div>
-  </div>
-
+  <canvas id="c"></canvas>
+  <script src="https://cdn.skymongers.net/npm/three@latest/three.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
